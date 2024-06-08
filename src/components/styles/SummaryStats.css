@@ -1,0 +1,51 @@
+/* styles/SummaryStats.css */
+.summary-stats-container {
+    padding: 20px;
+    margin: 20px auto; /* Center the summary-stats-container */
+    max-width: 800px; /* Limit width for better readability */
+    border: 2px solid #1E90FF; /* DodgerBlue border */
+    border-radius: 10px;
+    background-color: #FFFFFF; /* White background to contrast with the light blue background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better separation */
+  }
+  
+  .summary-stats-container h2 {
+    margin: 0;
+    padding: 10px 0; /* Add some padding top and bottom */
+    color: #1E90FF; /* DodgerBlue text color */
+    text-align: center;
+  }
+  
+
+  
+  .summary-stats table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .summary-stats th, .summary-stats td {
+    border: 1px solid #1E90FF; /* DodgerBlue border */
+    padding: 12px;
+  }
+  
+  .summary-stats th {
+    background-color: #1E90FF; /* DodgerBlue header background */
+    color: white;
+    text-align: left;
+  }
+  
+  .summary-stats tr:nth-child(odd) {
+    background-color: #E6F7FF; /* Light cyan for odd rows */
+  }
+  
+  .summary-stats tr:nth-child(even) {
+    background-color: #FFFFFF; /* White for even rows */
+  }
+  
+  .summary-stats tr:hover {
+    background-color: #ADD8E6; /* Light blue for hover effect */
+  }
+  
+  /* Additional CSS for the summary-stats table if needed */
+  

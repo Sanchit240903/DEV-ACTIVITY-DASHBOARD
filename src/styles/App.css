@@ -1,0 +1,55 @@
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cards */
+.card {
+  background-color: #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Popup Styles */
+.popup-card {
+  display: none;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #007bff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  z-index: 1000;
+  color: #fff;
+}
+
+.popup-card.active {
+  display: block;
+}
+/* styles/App.css */
+.App {
+  text-align: center;
+  background-color: #add8e6; /* Light blue background */
+  height: 1000vh; /* Ensure it covers the full viewport height */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+.App-header {
+  margin: 0 auto; /* Center the header */
+  padding: 10px; /* Reduced padding */
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center the content */
+}
+
+.App-title {
+  padding: 10px; /* Reduced padding */
+  background: linear-gradient(90deg, rgba(0, 0, 255, 1) 0%, rgba(0, 191, 255, 1) 100%);
+  color: white;
+  border-radius: 10px;
+}
